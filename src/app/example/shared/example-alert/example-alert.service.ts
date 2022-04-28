@@ -7,6 +7,6 @@ export class ExampleAlertService implements IExampleAlertService {
 
   public get(): void {
     this.logService.get();
-    alert('hello');
+    alert('Olá: Sou um alerta intruso, em breve serei retiradodo do codigo.!!');
   }
 }
