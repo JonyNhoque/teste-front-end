@@ -1,5 +1,5 @@
-import container from './example.container';
-import routes from './example.routes';
+import container from './home.container';
+import routes from './home.routes';
 
 export const exampleModule = {
   routes,
