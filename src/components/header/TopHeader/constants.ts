@@ -1,6 +1,6 @@
-import { ReactComponent as CreditCard } from '../../assets/icons/CreditCard.svg';
-import { ReactComponent as ShieldCheck } from '../../assets/icons/ShieldCheck.svg';
-import { ReactComponent as Truck } from '../../assets/icons/Truck.svg';
+import { ReactComponent as CreditCard } from '~/assets/icons/CreditCard.svg';
+import { ReactComponent as ShieldCheck } from '~/assets/icons/ShieldCheck.svg';
+import { ReactComponent as Truck } from '~/assets/icons/Truck.svg';
 
 const topHeaderTexts = [
   [
