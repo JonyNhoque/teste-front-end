@@ -1,9 +1,6 @@
 /*** Not Inject ***/
 @import './variables';
 
-/* Import Vendor */
-@import './vendor/bootstrap';
-
 /* Import Base */
 @import './base/global';
 @import './base/fonts';

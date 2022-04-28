@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
-import { exampleModule } from './example';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './home';
 import { Header } from './layout';
 
 export default function AppRouter() {
@@ -12,8 +12,7 @@ export default function AppRouter() {
 
       <Suspense fallback={<LoadingMessage />}>
         <Routes>
-          {exampleModule.routes}
-          <Route path="/" element={<Navigate replace to="/example" />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
