@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Header from '../components/header';
 import Home from './home';
-import { Header } from './layout';
 
 export default function AppRouter() {
   const LoadingMessage = () => <div>Loading..,</div>;

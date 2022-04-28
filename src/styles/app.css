@@ -1,11 +1,11 @@
 /*** Not Inject ***/
 @import './variables';
 
-/* Import Base */
-@import './base/global';
-@import './base/fonts';
-@import './base/states';
-@import './base/utilities';
+@import './base/fonts.css';
 
-/* Import Components */
-@import './components/logo.component';
+@import '../styles/components/topHeader.css';
+
+body, html, ul {
+    padding: 0;
+    margin: 0;
+}
