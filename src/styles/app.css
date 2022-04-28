@@ -2,10 +2,9 @@
 @import './variables';
 
 @import './base/fonts.css';
+@import './base/global.css';
 
-@import '../styles/components/topHeader.css';
-
-body, html, ul {
+/* body, html, ul {
     padding: 0;
     margin: 0;
-}
+} */

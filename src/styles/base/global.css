@@ -10,6 +10,8 @@ body {
   font-size: calc($default-font-size * 0.65);
   height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
 
   @media screen and (min-width: value($media, s)) {
     font-size: calc($default-font-size * 0.8);
