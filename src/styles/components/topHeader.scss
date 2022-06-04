@@ -1,0 +1,37 @@
+@import '../variables.scss';
+
+.topHeaderContainer {
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.topHeader {
+    display: flex;
+    max-width: 770px;
+    height: 32px;
+    background-color: #FFFF;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    list-style: none;
+    font-size: 12px;
+
+    &__item {
+        display: flex;
+        align-items: center;
+
+        &--gray{
+            color: $c-gray;
+            font-weight: 400;
+        }
+
+        &--yellow{
+            color: $c-yellow;
+            font-weight: 500;
+        }
+    }
+
+    &__icon {
+        margin-right: 13px;
+    }
+    
+}

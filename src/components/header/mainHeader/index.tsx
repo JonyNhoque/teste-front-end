@@ -1,9 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { ReactComponent as MagnifyingGlass } from '~/assets/icons/MagnifyingGlass.svg';
-import { ReactComponent as Logo } from '~/assets/images/Logo.svg';
-import '~/src/styles/components/mainHeader.css';
-import { mainHeaderData } from './contants';
+import { ReactComponent as MagnifyingGlass } from '../../../assets/icons/MagnifyingGlass.svg';
+import { ReactComponent as Logo } from '../../../assets/images/Logo.svg';
+import '../../../styles/components/mainHeader.scss';
+import { mainHeaderData } from './constants';
 
 type MainHeaderItemProps = {
   Icon: React.ReactNode;
