@@ -1,6 +1,6 @@
 import React from 'react';
 import '~/styles/components/topHeader.css';
-import { topHeaderData } from './constants';
+import { topHeaderData } from './constants.ts';
 
 type HeaderItemsProps = {
   Icon: React.ReactNode;
@@ -27,7 +27,7 @@ const TopHeader = () => {
   return (
     <div className="topHeaderContainer">
       <ul className="topHeader">
-        {topHeaderData.map((data, key) => (
+        {topHeaderData.map((data: any, key: any) => (
           <TopHeaderItems
             key={`top-header-item-${key}`}
             text={data.textData}
