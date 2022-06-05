@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import '../../../styles/components/categoryHeader.scss';
+import '../../../styles/components/header/categoryHeader.scss';
 import { categoryHeaderData } from './constants';
 
 type CategoryItemsProps = {
@@ -23,11 +23,11 @@ const CategoryHeaderItem = ({ Icon, text, href }: CategoryItemsProps) => {
 const CategoryHeader = () => {
   return (
     <div className='categoryHeader__container'>
-        <ul className='categoryHeader__list'>
+        {/* <ul className='categoryHeader__list'>
         {categoryHeaderData.map((data: any, key: any) => (
           <CategoryHeaderItem key={`category-header-item-${key}`} Icon={<data.icon />} href={data.href} text={data.text} />
         ))}
-        </ul>
+        </ul> */}
     </div>
   );
 };

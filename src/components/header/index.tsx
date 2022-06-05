@@ -8,7 +8,7 @@ const Header = () => {
     <>
       <TopHeader />
       <MainHeader />
-      {/* <CategoryHeader /> */}
+      <CategoryHeader />
     </>
   );
 };

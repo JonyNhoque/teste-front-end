@@ -1,14 +1,16 @@
-@import '../variables.scss';
+@import '../../variables.scss';
 
 .categoryHeaderContainer {
     border-bottom: 1px solid $c-offWhite;
 }
 
-.categoryHeader {
+.categoryHeader__container {
     display: flex;
     width: 100vw;
     height: 40px;
     background-color: rgb(154, 101, 101);
+    border-bottom: 1px solid $c-offWhite;
+    border-radius: 0px 0px 10px  10px;
 
     // &__item {
     //     display: flex;

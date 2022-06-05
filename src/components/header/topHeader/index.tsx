@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../styles/components/topHeader.scss';
+import '../../../styles/components/header/topHeader.scss';
 import { topHeaderData } from './constants';
 
 type HeaderItemsProps = {

@@ -1,0 +1,14 @@
+@import '../../variables.scss';
+
+.categoryCarousel__container{
+    height: 500px;
+    width: 100vw;
+    background-color: rgb(154, 101, 101);
+}
+
+.categoryCarousel__section{
+    position: absolute;
+    height: 418px;
+    margin: 105px 40px 8.5px 40px;
+    background-color: blueviolet;
+}
