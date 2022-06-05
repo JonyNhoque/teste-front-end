@@ -1,0 +1,32 @@
+@import '../variables.scss';
+
+.categoryHeaderContainer {
+    border-bottom: 1px solid $c-offWhite;
+}
+
+.categoryHeader {
+    display: flex;
+    width: 100vw;
+    height: 40px;
+    background-color: rgb(154, 101, 101);
+
+    // &__item {
+    //     display: flex;
+    //     align-items: center;
+
+    //     &--gray{
+    //         color: $c-gray;
+    //         font-weight: 400;
+    //     }
+
+    //     &--yellow{
+    //         color: $c-yellow;
+    //         font-weight: 500;
+    //     }
+    // }
+
+    // &__icon {
+    //     margin-right: 13px;
+    // }
+    
+}

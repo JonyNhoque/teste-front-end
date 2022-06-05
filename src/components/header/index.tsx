@@ -1,4 +1,5 @@
 import React from 'react';
+import CategoryHeader from './categoryHeader';
 import MainHeader from './mainHeader';
 import TopHeader from './topHeader';
 
@@ -7,6 +8,7 @@ const Header = () => {
     <>
       <TopHeader />
       <MainHeader />
+      {/* <CategoryHeader /> */}
     </>
   );
 };
