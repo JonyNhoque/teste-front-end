@@ -1,0 +1,32 @@
+@import '../../../variables.scss';
+
+.categoryItem {
+    position: absolute;
+    height: auto;
+    min-width: auto;
+
+    &__body{
+        max-height: 40px;
+        min-width: 110px;
+        padding: 10px 16px;
+        box-sizing: border-box;
+        background-color: #ffff;
+        border: 1px solid $c-grayBorder;
+        border-radius: 6px;
+        font-weight: 700;
+        color: $c-gray;
+        text-transform: uppercase;  
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        text-transform: uppercase;
+        white-space: nowrap;
+
+        &:hover{
+            color: #fff;
+            cursor: pointer;
+            background-color: $c-yellow;
+            border: 1px solid $c-yellow;
+        }
+    }
+}
