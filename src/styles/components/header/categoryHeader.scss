@@ -1,34 +1,40 @@
 @import '../../variables.scss';
 
-.categoryHeaderContainer {
-    border-bottom: 1px solid $c-offWhite;
-}
-
-.categoryHeader__container {
+.categoryHeader {
     display: flex;
+    justify-content: space-around;
     width: 100vw;
     height: 40px;
-    background-color: rgb(154, 101, 101);
-    border-bottom: 1px solid $c-offWhite;
+    background-color: #fff;
+    border-bottom: none;
     border-radius: 0px 0px 10px  10px;
-
-    // &__item {
-    //     display: flex;
-    //     align-items: center;
-
-    //     &--gray{
-    //         color: $c-gray;
-    //         font-weight: 400;
-    //     }
-
-    //     &--yellow{
-    //         color: $c-yellow;
-    //         font-weight: 500;
-    //     }
-    // }
-
-    // &__icon {
-    //     margin-right: 13px;
-    // }
     
+        &__list{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100vw;
+            margin: 11px 56px;
+            text-decoration: none;
+            outline: none;
+        }
+    
+        &__item {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            font-weight: 600;
+        }
+
+        &__link{
+            text-decoration: none;
+            color: $c-gray;
+
+            &:hover {
+                color: $c-yellow;
+            }
+        }
+
+
 }

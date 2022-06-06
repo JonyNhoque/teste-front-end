@@ -5,8 +5,8 @@ import NewProductsDisplay from "./newProductsDisplay";
 const Body = () =>{
     return(
         <div className='body__container'>
-            <NewProductsDisplay />
-            <CategoryCarousel />
+            {/* <NewProductsDisplay />
+            <CategoryCarousel /> */}
         </div>
     )
 }

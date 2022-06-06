@@ -4,17 +4,18 @@ import '../../../styles/components/header/categoryHeader.scss';
 import { categoryHeaderData } from './constants';
 
 type CategoryItemsProps = {
-  Icon: React.ReactNode;
+  // icon: React.ReactNode | null;
   href: string;
   text: string;
 };
 
-const CategoryHeaderItem = ({ Icon, text, href }: CategoryItemsProps) => {
+const CategoryHeaderItem = ({ text, href }: CategoryItemsProps) => {
+  
   return (
-    <li className='mainHeader__item'>
-        <NavLink to={href}>
-            {Icon}
-            {text}
+    <li className='categoryHeader__item'>
+        <NavLink className='categoryHeader__link' to={href}>
+          {/* {icon ?  icon : null}  */}
+          {text} 
         </NavLink>
     </li>
   );
@@ -22,12 +23,12 @@ const CategoryHeaderItem = ({ Icon, text, href }: CategoryItemsProps) => {
 
 const CategoryHeader = () => {
   return (
-    <div className='categoryHeader__container'>
-        {/* <ul className='categoryHeader__list'>
+    <div className='categoryHeader'>
+        <ul className='categoryHeader__list'>
         {categoryHeaderData.map((data: any, key: any) => (
-          <CategoryHeaderItem key={`category-header-item-${key}`} Icon={<data.icon />} href={data.href} text={data.text} />
+          <CategoryHeaderItem key={`category-header-item-${key}`} href={data.href} text={data.text} />
         ))}
-        </ul> */}
+        </ul>
     </div>
   );
 };
